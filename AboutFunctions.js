@@ -98,3 +98,4 @@ describe("About Functions", function() {
 
   });
 });
+//znowu coœ zmieniamy
