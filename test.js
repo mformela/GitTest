@@ -8,3 +8,4 @@ for (i = 10; i > 0; i--) {
     console.log(i);
     sleep(1000);
 }
+var i = "nowa zmiennna""
