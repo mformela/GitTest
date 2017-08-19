@@ -1,0 +1,170 @@
+main > div {
+    height: 100vh;
+    padding-top:24px;
+}
+
+main div {
+    background-color: #f3f3f3;
+}
+
+nav.uk-card.uk-card-body {
+    background-color:rosybrown;
+    padding:0px;
+    
+}
+
+header div ul {
+    background-color:darkslateblue;
+    color: white;
+}
+
+header > div:nth-child(odd) {
+    background-color: #dddddd;
+}
+
+header > div:nth-child(even) {
+    background-color: #000000;
+}
+
+nav.uk-card.uk-card-body:hover {
+    background-color: peachpuff;
+}
+
+header nav ul  {
+    list-style-type: none;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+    margin-bottom:0px;    
+}
+header div ul{
+    -webkit-margin-after:0;
+}
+nav a {
+    transition: color 3s ease;
+    color:darkslateblue;
+   
+}
+a:hover {
+    text-decoration:none;
+    color: black;
+    background-color:rosybrown;
+  
+}
+
+.uk-subnav-pill>.uk-active>a {
+    background-color:darkslateblue;
+    transition:all 3 saddlebrown ease;
+
+}
+.uk-subnav-pill>.uk-active>a:hover {
+    background-color:peachpuff;
+    transition:all 3s ease;
+
+}
+.uk-button.uk-button-default.uk-margin-small-right {
+    background-color:darkslateblue;
+    color: white;
+    transition:all 2s ease;
+}
+.uk-button.uk-button-default {
+    transition:color 2s ease;
+}
+.uk-button.uk-button-default {
+    color:black;
+}
+.uk-animation-kenburns{
+    max-width: 300px;
+    height: auto;
+    box-sizing: border-box;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes example {
+    0% {
+         width: 600px;
+        height:300px;
+        background-color: palevioletred;
+    }
+    25% {
+        width: 400px;
+        height:50px;
+        background-color: #00ffff;
+    }
+    50% {
+        width: 600px;
+        height:150px;
+        background-color: yellow;
+        opacity:0,5;
+        
+    }
+    75% {
+        width: 900px;
+        height:100px;
+        background-color: blueviolet;
+        opacity: 0.9;
+        
+    }
+    100% {
+        width: 600px;
+        height:300px;
+        background-color: palevioletred;
+        
+    }
+}
+.animacja {
+    width: 300 px;
+    height: 100px;
+    background-color: rosybrown;
+    animation-name: example;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+
+.animacjaobraz {
+    width: 900px;
+    height:900px;
+    background-color: rosybrown;
+    animation-name: piesek;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+@keyframes piesek {
+    0% {
+        width: 300px;
+        height:300px;
+        background-image: url("img/pies1.jpg");
+    }
+    25% {
+        width: 300px;
+        height:300px;
+        background-image: url("img/pies2.jpg");
+    }
+    50% {
+         width: 300px;
+        height:300px;
+        background-image: url("img/pies3.jpg");
+
+    }
+    75% {
+         width: 300px;
+        height:300px;
+        background-image: url("img/pies4.jpg");
+    }
+    100% {
+         width: 300px;
+        height:300px;
+        background-image: url("img/pies5.jpg");
+    }
+}
+.uk-grid-small.uk-child-width-auto {
+    padding: 20px 20px 20px 20px;
+    border: 3px solid green;
+    justify-content: center;
+   
+
+}
+#Wymysl{
+    justify-content: space-around;
+}
